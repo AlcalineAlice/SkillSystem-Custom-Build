@@ -329,9 +329,12 @@
 //By Rossendale
 #define SwordbreakerID 19
 #define LancebreakerID 20
-#define AxebreakerID 21
-#define BowbreakerID 22
+#define AxebreakerID 255
+#define BowbreakerID 255
 #define TomebreakerID 23
+#define StaffbreakerID 255
+#define LightbreakerID 22
+#define DarkbreakerID 21
 
 //Charge: Gain +1 damage for every two squares moved.
 //By Datagne
