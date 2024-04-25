@@ -311,18 +311,12 @@ SkillDescription(EarthBoostID,SD_EarthBoost)
 SkillDescription(FireBoostID,SD_FireBoost)
 SkillDescription(DancingBladeID,SD_DancingBlade)
 SkillDescription(HeavyBladeID,SD_HeavyBlade)
-
-//Added Skills
-
 SkillDescription(StaffbreakerID,SD_Staffbreaker)
 SkillDescription(LightbreakerID,SD_Lightbreaker)
 SkillDescription(DarkbreakerID,SD_Darkbreaker)
 SkillDescription(StafffaireID,SD_Lightfaire)
 SkillDescription(LightfaireID,SD_Lightfaire)
 SkillDescription(DarkfaireID,SD_Darkfaire)
-
-//
-
 SkillDescription(StrongID,SD_Strong)
 SkillDescription(DefenderID,SD_Defender)
 SkillDescription(DelivererID,SD_Deliverer)

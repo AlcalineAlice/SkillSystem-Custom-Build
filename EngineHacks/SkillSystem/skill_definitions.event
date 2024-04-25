@@ -1021,8 +1021,6 @@
 #define WindBoostID 255
 #define EarthBoostID 255
 #define FireBoostID 255
-#define DancingBladeID 255
-#define HeavyBladeID 255
 
 //Custom Skills
 
