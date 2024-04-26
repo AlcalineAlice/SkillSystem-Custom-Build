@@ -11,7 +11,7 @@
 //#define USE_TEST_MAP
 
 // The amount of attack speed needed to double an opponent.
-#define AS_DOUBLING_THRESHOLD 3
+#define AS_DOUBLING_THRESHOLD 4
 
 // If true, dropped items will retain their durability.
 #define DROPPED_ITEM_DURABILITY True
@@ -22,13 +22,13 @@
 
 // If commented, slayer and effectiveness will remain the same as they are in vanilla
 // Look at SkillSystem/Skills/EffectivenessSkills/Nullify/_README.txt for the full ramifications of uncommenting this
-//#define ENABLE_SLAYER_AND_EFFECTIVENESS_REWORK
+#define ENABLE_SLAYER_AND_EFFECTIVENESS_REWORK
 
 // If uncommented, a full str/split will be implemented without replacing any stats
 // USE_SAVE_EXPANSION will be used even if commented
 // TODO: Define an item ID for Spirit Dust (Mag statbooster) in "Strmag/Str Mag Split/Installer.event". Energy Ring is used by default!
 // Item icon for Spirit Dust is included! Define your icon ID in "Strmag/_Master Asm Installer.event". Default is Green Note.
-#define USE_STRMAG_SPLIT
+//#define USE_STRMAG_SPLIT
 
 // If uncommented, will use a full (EMS-based) save expansion instead of the "old" suspend expansion
 // Enabling this *will* break saves, but allows for higher stats and other things.
@@ -60,9 +60,9 @@
 #define HEAL_TILES
 
 //If uncommented, will enable event ASMCs for adding traps, rescuing units, and sending items to the convoy respectively.
-//#define EVENT_ADD_TRAPS
-//#define EVENT_RESCUE
-//#define EVENT_SEND_TO_CONVOY
+#define EVENT_ADD_TRAPS
+#define EVENT_RESCUE
+#define EVENT_SEND_TO_CONVOY
 
 //If uncommented, will enable Event Writer.
 #define EVENT_WRITER
@@ -86,7 +86,7 @@
 #define PROLOGUE_SUPPLY
 
 //If uncommented, will enable PC and Generic Music.
-//#define CHARACTER_CHAPTER_SPECIFIC_BATTTLETHEMES
+#define CHARACTER_CHAPTER_SPECIFIC_BATTTLETHEMES
 
 //If uncommented, will enable the Movement Arrow Hack.
 #define MOVEARROW_HACK
@@ -98,10 +98,10 @@
 #define CRIT_CAP
 
 //If uncommented, will enable Chapter Names as Text.
-//#define TEXT_CHAPTER_NAMES
+#define TEXT_CHAPTER_NAMES
 
 //If uncommented, will enable Proper Range Getters.
-//#define HAX_PROPER_RANGE_GETTERS_EVENT
+#define HAX_PROPER_RANGE_GETTERS_EVENT
 
 //If uncommented, will use allegiance-based statscreen palettes.
 // #define STATSCREEN_ALLEGIANCE
@@ -135,7 +135,7 @@
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
-#define LEADERSHIP_STARS
+//#define LEADERSHIP_STARS
 
 // If uncommented, Biorhythm will be implemented.
 // Go to "Biorhythm/Biorhythm.event" to edit settings.
@@ -184,7 +184,7 @@
 
 // If uncommented, Area of Effect (AoE) attacks will be enabled. 
 // See ExternalHacks/AoE/Installer.event for details. 
-#define INSTALL_AoE
+//#define INSTALL_AoE
 
 // If uncommented, Unlock staves will work on chests.
 // #define UNLOCK_WORKS_ON_CHESTS
@@ -202,14 +202,14 @@
 // If uncommented, passive stat boosts will not stack and only the 
 // first item in the inventory with passive stat boosts will apply them.
 // Setting the 0x00800000 bit in the item ability bitfield will enable passive boosts.
-// #define DONT_STACK_BOOSTS
+#define DONT_STACK_BOOSTS
 
 // =================================
 // = SKILL BEHAVIOUR CONFIGURATION =
 // =================================
 
 // if uncommented units will be select automatically after galeforce (pressing b won't end their turn)
-// #define ENABLE_GALEFORCE_AUTOSELECT
+#define ENABLE_GALEFORCE_AUTOSELECT
 
 // if uncommented lethality will work like it originally did in gba
 // #define ENABLE_GBA_LETHALITY
@@ -320,7 +320,7 @@
 #define PRESS_SELECT_TO_VIEW_GROWTHS
 
 //If true, the stat colors for player units will reflect their growth in the stat.
-#define USE_STAT_COLORS True
+#define USE_STAT_COLORS False
 
 //If true, Fixed Growths mode will exist.
 #define FIXED_GROWTHS_MODE True
@@ -329,7 +329,7 @@
 #define FIXED_GROWTHS_FLAG_ID 0xEF
 
 //If true, passive growth boosters and metis tome will not affect growths in fixed growths mode.
-#define FIXED_GROWTHS_DONT_BOOST True
+#define FIXED_GROWTHS_DONT_BOOST False
 
 //If true, enemy/NPC autolevels will use fixed growths as well.
 #define ENEMY_NPC_FIXED_GROWTHS False
@@ -337,7 +337,7 @@
 
 //If true, the effects of multiple passive growth boosters can stack.
 //Setting the 0x00800000 bit in the item ability bitfield will enable passive boosts.
-#define STACKABLE_GROWTH_BOOSTS True
+#define STACKABLE_GROWTH_BOOSTS False
 
 //Amount for Metis Tome to boost growths by
 #define METIS_TOME_BOOST 5
