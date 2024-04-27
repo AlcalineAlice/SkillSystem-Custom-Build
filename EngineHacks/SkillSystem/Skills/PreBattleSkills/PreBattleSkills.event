@@ -365,8 +365,6 @@ HeavyBlade:
 POIN SkillTester
 WORD HeavyBladeID
 
-#include "KeenFighter/Installer.event" 
-
 //
 
 ALIGN 4
@@ -435,10 +433,10 @@ POIN SkillTester
 WORD GracefulRiderID
 
 ALIGN 4
-Hunter:
+HunterSkill:
 #incbin "Hunter/Hunter.dmp"
 POIN SkillTester
-WORD HunterID
+WORD HunterSkillID
 
 ALIGN 4
 ShortFuse:

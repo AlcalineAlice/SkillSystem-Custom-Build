@@ -929,65 +929,11 @@ ORG SkillIcon(AirSuperiorityID)
 ORG SkillIcon(ConcentrationID)
 #incbin "SkillIcons/Concentration.dmp"
 
-ORG SkillIcon(VolantID)
-#incbin "SkillIcons/Volant.dmp"
-
 ORG SkillIcon(DefenderID)
 #incbin "SkillIcons/Defender.dmp"
 
 ORG SkillIcon(DelivererID)
 #incbin "SkillIcons/Deliverer.dmp"
-
-ORG SkillIcon(DivineProtectionID)
-#incbin "SkillIcons/DivineProtection.dmp"
-
-ORG SkillIcon(GambleFE14ID)
-#incbin "SkillIcons/GambleFE14.dmp"
-
-ORG SkillIcon(GuardID)
-#incbin "SkillIcons/Guard.dmp"
-
-ORG SkillIcon(HeartseekerID)
-#incbin "SkillIcons/Heartseeker.dmp"
-
-ORG SkillIcon(SalvageBlowID)
-#incbin "SkillIcons/SalvageBlow.dmp"
-
-ORG SkillIcon(WitchsBrewID)
-#incbin "SkillIcons/WitchsBrew.dmp"
-
-ORG SkillIcon(BushidoID)
-#incbin "SkillIcons/Bushido.dmp"
-
-ORG SkillIcon(CompetitiveID)
-#incbin "SkillIcons/Competitive.dmp"
-
-ORG SkillIcon(EvenhandedID)
-#incbin "SkillIcons/Evenhanded.dmp"
-
-ORG SkillIcon(FierceCounterID)
-#incbin "SkillIcons/FierceCounter.dmp"
-
-ORG SkillIcon(HuntersBoonID)
-#incbin "SkillIcons/HuntersBoon.dmp"
-
-ORG SkillIcon(OddShapedID)
-#incbin "SkillIcons/OddShaped.dmp"
-
-ORG SkillIcon(PhilandererID)
-#incbin "SkillIcons/Philanderer.dmp"
-
-ORG SkillIcon(PrideID)
-#incbin "SkillIcons/Pride.dmp"
-
-ORG SkillIcon(ProdigyID)
-#incbin "SkillIcons/Prodigy.dmp"
-
-ORG SkillIcon(RivalryID)
-#incbin "SkillIcons/Rivalry.dmp"
-
-ORG SkillIcon(UnmaskID)
-#incbin "SkillIcons/Unmask.dmp"
 
 ORG SkillIcons+0x8000
 
